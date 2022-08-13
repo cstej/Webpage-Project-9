@@ -1,0 +1,267 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f8f8fa;
+  /* overflow-y: hidden; */
+}
+
+header{
+ 
+  background-color: #4617fe;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  height: 70vh;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 30px;
+ align-self: flex-end;
+ margin-top: 5vh;
+ margin-right: 5vh;
+
+}
+.nav-item-active{
+  padding: 5px 16px;
+  background-color: white;
+  color: #4617fe;
+  border-radius: 6px;
+}
+.header-text h2{
+font-size: 2.5rem;
+}
+.header-text{
+
+   position: absolute;
+   top:30vh;
+}
+.header-image{
+  position: absolute;
+  right: 0;
+  top: 15vh;
+  width: 500px;
+}
+/* ////////
+ */
+
+
+ .companies{
+  display: flex;
+  gap: 40px;
+  font-family: Righteous;
+  padding: 10px 20px;
+  /* margin-bottom: 14vh; */
+ }
+
+.companies a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3vw;
+  font-weight: 900;
+}
+.api{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 80rem;
+  padding: 0 30px;
+  margin-top: 10vh;
+}
+.api .cards{
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+.card-active{
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 4%);
+}
+.card{
+  padding: 40px 20px;
+}
+
+/* ///////////////// */
+
+.blog{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 80rem;
+  padding: 0 30px;
+  margin-top: 10vh;
+}
+
+.blog-heading{
+  margin-top: 10vh;
+}
+
+.blog-cards{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 5vh;
+
+
+
+}
+.blog-card{
+  display: flex;
+  box-shadow: 0 0 10px 6px rgb(0 0 0 / 4%);
+  position: relative;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+.blog-content{
+  padding: 10px 50px;
+
+}
+.blog-bottom{
+  position: absolute;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    left: 320px;
+    bottom: -20px;
+}
+.blog-author{
+  position: absolute;
+  left: 400px;
+  bottom: 10px;
+}
+
+
+/* /////////// */
+
+.faq-section{
+  display: flex;
+  background-color: #e9edff;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 80rem;
+  padding-left: 20px;
+  margin-top: 5vh;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 330px; */
+}
+
+.faq-content{
+  padding-right: 100px;
+}
+.faq-content h2{
+font-size: 35px;
+font-weight: bolder;
+}
+.faq-content button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #4617fe;
+  color: white;
+  
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+.faq-image {
+  width: 50%;
+  
+}
+.faq-image img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.download-section{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 80rem;
+  padding: 0 30px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.download-email form>input{
+
+  padding:15px 150px 15px 20px;
+  outline: none;
+  border: none;
+  background-color: #e9edff;
+  border-radius: 50px;
+  width: 400px;
+
+}
+.download-email button{
+  position:relative;
+  padding: 10px 40px;
+  right: 150px;
+  background-color: #4617fe;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+
+}
+
+
+
+/* //////
+ */
+
+ .footer-section{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 80rem;
+  padding: 0 30px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4617fe
+
+ }
+
+ .logos-list,.list{
+  margin-top: 30px;
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  color: white;
+ }
+
+.vertical-bar::after{
+  content: "|";
+  position: absolute;
+  padding-left: 20px;
+}
+
+.footer-logos{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
